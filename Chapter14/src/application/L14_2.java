@@ -7,7 +7,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.stage.Stage;
 
-public class L14_1 extends Application {
+public class L14_2 extends Application {
 
 	@Override // Override the start method in the Application class
 	public void start(Stage primaryStage) {
