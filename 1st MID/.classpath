@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="CH -11 Inheritance"/>
+	<classpathentry kind="src" path="CH -14 JavaFx Basic/14.12 BarChartProject/src"/>
+	<classpathentry kind="src" path="CH -14 JavaFx Basic/14.19 SineCosinePlot/src"/>
+	<classpathentry kind="src" path="CH -14 JavaFx Basic/14.23 RectangleRelationship/src"/>
+	<classpathentry kind="src" path="CH -14 JavaFx Basic/14.24 PolygonPointCheck/src"/>
+	<classpathentry kind="src" path="CH -14 JavaFx Basic/14.29 BeanMachine7/src"/>
+	<classpathentry kind="src" path="CH -14 JavaFx Basic/14.2 TicTacToe/src"/>
+	<classpathentry kind="src" path="CH -14 JavaFx Basic/14.3 DisplayThreeCards/src"/>
+	<classpathentry kind="src" path="CH -14 JavaFx Basic/14.8 Display all cards/src"/>
+	<classpathentry kind="lib" path="CH -14 JavaFx Basic/14.12 BarChartProject/barChart.jar"/>
+	<classpathentry kind="lib" path="CH -14 JavaFx Basic/14.19 SineCosinePlot/SineCosine.jar"/>
+	<classpathentry kind="lib" path="CH -14 JavaFx Basic/14.23 RectangleRelationship/Rectangle Relation.jar"/>
+	<classpathentry kind="lib" path="CH -14 JavaFx Basic/14.24 PolygonPointCheck/Polygon Point Check.jar"/>
+	<classpathentry kind="lib" path="CH -14 JavaFx Basic/14.2 TicTacToe/TicTacToe.jar"/>
+	<classpathentry kind="lib" path="CH -14 JavaFx Basic/14.3 DisplayThreeCards/DTC.jar"/>
+	<classpathentry kind="lib" path="CH -14 JavaFx Basic/14.3 DisplayThreeCards/DTC1.jar"/>
+	<classpathentry kind="lib" path="CH -14 JavaFx Basic/14.8 Display all cards/showAllCards.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ASUS/JAVA/javafx-sdk-23.0.1/lib/javafx.base.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/ASUS/JAVA/javafx-sdk-23.0.1/lib/javafx.controls.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/ASUS/JAVA/javafx-sdk-23.0.1/lib/javafx.fxml.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/ASUS/JAVA/javafx-sdk-23.0.1/lib/javafx.graphics.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/ASUS/JAVA/javafx-sdk-23.0.1/lib/javafx.media.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/ASUS/JAVA/javafx-sdk-23.0.1/lib/javafx.swing.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/ASUS/JAVA/javafx-sdk-23.0.1/lib/javafx.web.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/ASUS/JAVA/javafx-sdk-23.0.1/lib/javafx-swt.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="CH -14 JavaFx Basic/14.12 BarChartProject/bin"/>
+</classpath>
