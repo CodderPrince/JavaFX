@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/cal/pom.xml" />
+        <option value="$PROJECT_DIR$/il1/pom.xml" />
+        <option value="$PROJECT_DIR$/il2/pom.xml" />
+        <option value="$PROJECT_DIR$/il3/pom.xml" />
+        <option value="$PROJECT_DIR$/MyApp/pom.xml" />
+        <option value="$PROJECT_DIR$/TicTacToe/pom.xml" />
+        <option value="$PROJECT_DIR$/NumberConversionSystem/pom.xml" />
+        <option value="$PROJECT_DIR$/Tic-Tac-Toe-Java-master/Tic-Tac-Toe-Java-master/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_23" default="true" project-jdk-name="23" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
