@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Main-Class: application.Main
+Class-Path: .
+
+Name: about.html
+SHA-256-Digest: 1fuYr0bu6NsJZCAmSom5QtnvnV0Cg8DwLn77Dd1Ql24=
+
+Name: jfx8.cssext
+SHA-256-Digest: b2p9PXeoxqnTdYgBFeKp3s7J9PajukOS3sGqyM4s36I=
+
