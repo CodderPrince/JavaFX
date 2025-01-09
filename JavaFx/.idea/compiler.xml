@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="MyApp" />
+        <module name="il3" />
+        <module name="NumberConversionSystem" />
+        <module name="TicTacToe" />
+        <module name="Tic-tac-toe" />
+        <module name="il2" />
+        <module name="cal" />
+        <module name="il1" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
