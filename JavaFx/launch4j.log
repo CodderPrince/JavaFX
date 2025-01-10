@@ -1,0 +1,26 @@
+
+
+Version:	3.50
+CmdLine:	E:\App.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	E:\.
+Requires JDK:	Yes
+Requires 64-Bit: No
+Java min ver:	1.007.000
+Java max ver:	1.009.000
+JRE paths:	C:\Program Files\Java\jre1.8.0_431
+Check launcher:	C:\Program Files\Java\jre1.8.0_431\bin\javaw.exe (OK)
+Check javac:	C:\Program Files\Java\jre1.8.0_431\bin\javac.exe (not found)
+64-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+32-bit search:	SOFTWARE\JavaSoft\Java Development Kit...
+64-bit search:	SOFTWARE\JavaSoft\JDK...
+Check:		SOFTWARE\JavaSoft\JDK\23.0.1
+Version string: 1.023.000_001 / 64-Bit (Ignore)
+Ignore:		1.023.000_001
+32-bit search:	SOFTWARE\JavaSoft\JDK...
+64-bit search:	SOFTWARE\IBM\Java Development Kit...
+32-bit search:	SOFTWARE\IBM\Java Development Kit...
+64-bit search:	SOFTWARE\IBM\Java Development Kit...
+32-bit search:	SOFTWARE\IBM\Java Development Kit...
+Error msg:	This application requires a Java Runtime Environment 1.7 - 1.9
