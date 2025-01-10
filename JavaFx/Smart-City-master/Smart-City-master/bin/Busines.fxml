@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.ParallelCamera?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="610.0" prefWidth="917.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Business_Module">
+   <children>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text layoutX="323.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <ImageView fitHeight="171.0" fitWidth="918.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../imgs/1702a43a-7c46-4122-8da2-791516ebab09.jpg" />
+         </image>
+      </ImageView>
+      <ParallelCamera />
+      <Button fx:id="compbtn" layoutY="310.0" mnemonicParsing="false" onAction="#view_companies" style="-fx-background-color: black;" text="Companies in City" textFill="#f7f2f2">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="historybtn" layoutX="-10.0" layoutY="400.0" mnemonicParsing="false" onAction="#view_history" prefHeight="52.0" prefWidth="142.0" style="-fx-background-color: black;" text="City History" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </Button>
+      <Label layoutX="54.0" layoutY="194.0" prefHeight="72.0" prefWidth="176.0" text="Business Module" textFill="#fff7f7">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="265.0" layoutY="293.0" />
+      <Label layoutX="251.0" layoutY="258.0" prefHeight="52.0" prefWidth="142.0" text="Business in City" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" contentDisplay="TOP" layoutX="265.0" layoutY="315.0" prefHeight="170.0" prefWidth="420.0" text="Egypt is a transcontinental country spanning the northeast corner&#10;of Africa and southwest corner of Asia by a land bridge formed by&#10;the Sinai Peninsula. Egypt's economy depends mainly on'agriculture,&#10;media, petroleum imports, natural gas, and tourism; there are also&#10;more than three million Egyptians working abroad, mainly in Saudi&#10;Arabia, the Persian Gulf and Europe. The completion of the Aswan&#10;High Dam in 1970 and the resultant Lake Nasser have altered the&#10;time-honoured place of the Nile River in the agriculture and ecology&#10;of Egypt. A rapidly growing population, limited arable land, and&#10;dependence on the Nile all continue to overtax resources and stress&#10;the economy" textFill="WHITE" textOverrun="CLIP">
+         <font>
+            <Font name="Calibri" size="15.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="705.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
+         <cursor>
+            <Cursor fx:constant="S_RESIZE" />
+         </cursor>
+         <image>
+            <Image url="@../../../imgs/248517f6-3ddb-4847-856c-ba4e03a1ce7c.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="705.0" layoutY="410.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../imgs/31dcfa7c-38df-4f75-a506-3433a6ffb1b0.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
