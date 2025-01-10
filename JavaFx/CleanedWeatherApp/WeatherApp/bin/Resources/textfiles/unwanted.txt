@@ -1,0 +1,10 @@
+coord
+timezone
+sys
+dt
+name
+cod
+id
+base
+clouds
+rain
