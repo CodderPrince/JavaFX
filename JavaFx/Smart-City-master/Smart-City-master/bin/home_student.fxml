@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="426.0" prefWidth="586.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Student_Module">
+   <children>
+      <BorderPane layoutY="-17.0" prefHeight="346.0" prefWidth="388.0">
+         <top>
+            <VBox prefHeight="113.0" prefWidth="388.0" style="-fx-background-image: Z:\uni\y2 sem 2\advanced\quiz\project;" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="131.0" fitWidth="596.0">
+                     <image>
+                        <Image url="@../../../imgs/c137c074-c9b0-48cb-bef3-34af7f654352.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </VBox>
+         </top>
+         <center>
+            <Pane prefHeight="271.0" prefWidth="575.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Pane layoutY="30.0" prefHeight="286.0" prefWidth="152.0" style="-fx-background-color: black;">
+                     <children>
+                        <Text fill="#f2f2f2" layoutX="14.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student Mode" textAlignment="CENTER" wrappingWidth="104.38134765625">
+                           <effect>
+                              <Glow />
+                           </effect>
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Text>
+                        <Button fx:id="libbtn" alignment="TOP_LEFT" layoutY="112.0" mnemonicParsing="false" onAction="#view_libraries" prefHeight="29.0" prefWidth="151.0" style="-fx-background-color: black;" text="libraries" textFill="WHITE">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="clubbtn" alignment="TOP_LEFT" layoutX="1.0" layoutY="181.0" mnemonicParsing="false" onAction="#view_clubs" prefHeight="29.0" prefWidth="151.0" style="-fx-background-color: black;" text="Sports Club" textFill="WHITE">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="uni" alignment="TOP_LEFT" layoutX="1.0" layoutY="48.0" mnemonicParsing="false" onAction="#view_universities" prefHeight="41.0" prefWidth="152.0" style="-fx-background-color: black;" text="Universities" textFill="WHITE">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="152.0" layoutY="29.0" prefHeight="287.0" prefWidth="446.0" style="-fx-background-color: black;">
+                     <children>
+                        <Text fill="WHITE" layoutX="31.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Institutions here like everywhere around the world, here are committed to making student life as interesting as possible. With various activities ranging from on-campus to off-campus initiatives students never run short of what to do at Egyptian institutions.When you have taken your flight to this amazing country you enjoy your semester broad in a captivating environment and unique atmosphere!" wrappingWidth="252.53680419921875" />
+                        <Text fill="WHITE" layoutX="14.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student Life">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="75.0" fitWidth="113.0" layoutX="313.0" layoutY="34.0">
+                           <image>
+                              <Image url="@../../../imgs/28eaa63f-c20c-421e-a3be-3ab617fcde51%20(1).jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="74.0" fitWidth="114.0" layoutX="313.0" layoutY="114.0">
+                           <image>
+                              <Image url="@../../../imgs/d561c000-e775-4862-858c-2c4e8b6590e3%20(1).jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="75.0" fitWidth="115.0" layoutX="312.0" layoutY="194.0">
+                           <image>
+                              <Image url="@../../../imgs/a67c9705-5670-41e3-9187-a598756cf84f%20(1).jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="-14.0" layoutY="-1.0" prefHeight="32.0" prefWidth="611.0" style="-fx-background-color: black;" />
+               </children>
+            </Pane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
