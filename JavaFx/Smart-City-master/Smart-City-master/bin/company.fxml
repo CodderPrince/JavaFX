@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="570.0" prefWidth="879.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="company_controller">
+   <children>
+      <ImageView fitHeight="179.0" fitWidth="890.0" layoutX="-8.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../imgs/fecd1cae-e591-475c-9b6f-8a5056b350b4.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="348.0" fitWidth="200.0" layoutX="14.0" layoutY="192.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../imgs/9378aa1c-2d3b-40b3-96f7-b0b875d490a7.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="366.0" layoutY="179.0" prefHeight="74.0" prefWidth="334.0" text="Companies in Cairo" textFill="#fffbfb">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="302.0" layoutY="253.0" text="Orascom Construction Industries" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="100.0" fitWidth="170.0" layoutX="300.0" layoutY="291.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../imgs/6969d37e-8f3e-4489-93b9-47e1050550e2.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="649.0" layoutY="247.0" prefHeight="33.0" prefWidth="102.0" text="Banque Misr" textFill="#fff7f7">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="112.0" fitWidth="168.0" layoutX="583.0" layoutY="294.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../imgs/72a1c3e5-e36c-4b94-9e7e-e4830365d47c.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="311.0" layoutY="418.0" text="Suez Cement" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="100.0" fitWidth="168.0" layoutX="300.0" layoutY="440.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../imgs/d1c8a3fd-cb91-4bb5-b910-e7b3f4551022.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="170.0" layoutX="592.0" layoutY="440.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../imgs/3c58c59e-0da3-414a-a92d-dc53fe196a11.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="650.0" layoutY="407.0" text="Air Cairo" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
