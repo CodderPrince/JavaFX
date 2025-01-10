@@ -1,0 +1,141 @@
+@font-face {
+    src : url("/Resources/fonts/Roboto-Regular.ttf");
+}
+.axis {
+    -fx-font-size: 2em;
+    -fx-tick-label-fill: #ffffff;
+    -fx-font-family: Roboto Regular;
+    -fx-tick-length: 20;
+    -fx-minor-tick-length: 10;
+}
+.chart-title {
+  -fx-text-fill: #efcc00;
+  -fx-font-size: 2.5em;
+}
+.chart-legend {
+    -fx-background-color : #d7d7d7;
+}
+.chart-legend-item{
+    -fx-font-family: Roboto Regular;
+    -fx-font-size: 1.2em;
+}
+.axis-label {
+  -fx-text-fill: #efcc00;
+}
+.default-color0.chart-series-line {
+    -fx-stroke: blue;
+}
+
+.default-color0.chart-line-symbol {
+    -fx-background-color: blue, white;
+}
+.default-color1.chart-line-symbol {
+    -fx-background-color: red, white;
+}
+.default-color1.chart-series-line {
+    -fx-stroke: red;
+}
+
+.dialog-pane {
+    -fx-background-color : #121212;
+}
+
+.dialog-pane .button {
+    -fx-base : white;
+    -fx-focus-color : #efcc00;
+    -fx-font-family : "Roboto Regular";
+    -fx-text-fill : #121212;
+    -fx-font-size : 16;
+}
+
+.dialog-pane .label {
+    -fx-text-fill : #121212;
+    -fx-font-family : "Roboto Regular";
+    -fx-font-size : 16;
+}
+
+.dialog-pane:header .header-panel{
+    -fx-background-color : #efcc00;
+}
+
+.grid {
+    -fx-background-color : black;
+}
+
+.tab-pane>*.tab-header-area>*.tab-header-background, .tab-pane {
+   -fx-background-color: black;
+}
+#location-label, #tab-label {
+    -fx-font-family : "Roboto Regular";
+    -fx-text-fill : "white";
+    -fx-font-size : 18;
+}
+#temp-label {
+    -fx-font-family : "Roboto Regular";
+    -fx-text-fill : "white";
+    -fx-font-size : 82;
+}
+
+#temp-desc-label {
+    -fx-font-family : "Roboto Regular";
+    -fx-text-fill : "white";
+    -fx-font-size : 24;
+}
+
+#min-max-temp-label {
+    -fx-font-family : "Roboto Regular";
+    -fx-text-fill : "white";
+    -fx-font-size : 22;
+}
+
+#additional-weather-parameters {
+    -fx-font-family : "Roboto Regular";
+    -fx-text-fill : "white";
+    -fx-font-size : 16;
+}
+
+#back-button {
+    -fx-background-color : #efcc00;
+    -fx-font-family : Roboto Regular;
+    -fx-font-size : 1.2em;
+}
+
+#detailed-weather-widget, #sparse-forecast-widget {
+    -fx-background-color : #121212;
+    -fx-padding : 20;
+    -fx-background-radius : 10;
+}
+
+#location-label {
+    -fx-text-fill : #ffffff;
+    -fx-font-family : Roboto Regular;
+    -fx-font-size : 16;
+}
+
+#refresh-button {
+    -fx-background-color : #efcc00;
+    -fx-padding : 0;
+}
+
+#refresh-button:pressed {
+    -fx-background-color : #ffffff;
+}
+
+#temperature-widget {
+    -fx-padding : 10,0,0,0;
+}
+
+#sparse-forecast-date {
+    -fx-font-family : "Roboto Regular";
+    -fx-text-fill : "white";
+    -fx-font-size : 16;
+}
+#tooltip {
+    -fx-font-family : Roboto Regular;
+    -fx-font-size : 1.2em;
+}
+#last-update-label {
+    -fx-font-family : Roboto Regular;
+    -fx-text-fill : #ffffff;
+    -fx-font-size : 1.2em;
+}
