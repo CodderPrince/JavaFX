@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="517.0" prefWidth="904.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Admin_Module">
+   <children>
+      <ImageView fitHeight="152.0" fitWidth="904.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../imgs/smart-4308821_1920.jpg" />
+         </image>
+      </ImageView>
+      <ComboBox fx:id="addbtn" layoutX="370.0" layoutY="246.0" prefHeight="25.0" prefWidth="150.0" promptText="choose type" visibleRowCount="4" />
+      <Label layoutX="364.0" layoutY="272.0" prefHeight="55.0" prefWidth="194.0" text="Add user name" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="userbtn" layoutX="370.0" layoutY="331.0" />
+      <Label layoutX="370.0" layoutY="202.0" text="Add new " textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="227.0" layoutY="162.0" prefHeight="55.0" prefWidth="150.0" text="Admin view" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="7.0" layoutY="162.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../imgs/1702a43a-7c46-4122-8da2-791516ebab09.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="152.0" fitWidth="200.0" layoutX="7.0" layoutY="344.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../imgs/fd576558-1133-4664-ae98-95d2dfcc693a.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="690.0" layoutY="172.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../imgs/smart_cities_Infographic_sdg11-1200px.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="690.0" layoutY="355.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../imgs/Retos-de-las-smart-cities.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="updatebtn" layoutX="403.0" layoutY="445.0" mnemonicParsing="false" onAction="#adduser" style="-fx-background-color: black;" text="Update" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+      <Label layoutX="370.0" layoutY="357.0" prefHeight="55.0" prefWidth="194.0" text="Add password" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="passbtn" layoutX="370.0" layoutY="407.0" />
+   </children>
+</AnchorPane>
