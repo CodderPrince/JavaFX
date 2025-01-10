@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="426.0" prefWidth="586.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Tourism_Module">
+   <children>
+      <BorderPane layoutY="-17.0" prefHeight="346.0" prefWidth="388.0">
+         <top>
+            <VBox prefHeight="113.0" prefWidth="388.0" style="-fx-background-image: Z:\uni\y2 sem 2\advanced\quiz\project;" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="139.0" fitWidth="596.0">
+                     <image>
+                        <Image url="@../../../imgs/2d218dc2-dca9-436b-9da3-5837f1569211.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </VBox>
+         </top>
+         <center>
+            <Pane prefHeight="271.0" prefWidth="575.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Pane layoutY="30.0" prefHeight="286.0" prefWidth="152.0" style="-fx-background-color: black;">
+                     <children>
+                        <Button fx:id="attractionbtn" alignment="TOP_LEFT" layoutY="112.0" mnemonicParsing="false" onAction="#view_attractions" prefHeight="29.0" prefWidth="151.0" style="-fx-background-color: black;" text="Tourist Attractions" textFill="WHITE">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="restaurantbtn" alignment="TOP_LEFT" layoutX="1.0" layoutY="181.0" mnemonicParsing="false" onAction="#view_restaurants" prefHeight="29.0" prefWidth="151.0" style="-fx-background-color: black;" text="Restaurants" textFill="WHITE">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="hotelsbtn" alignment="TOP_LEFT" layoutX="1.0" layoutY="48.0" mnemonicParsing="false" onAction="#view_hotels" prefHeight="41.0" prefWidth="152.0" style="-fx-background-color: black;" text="Hotels" textFill="WHITE">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="152.0" layoutY="29.0" prefHeight="287.0" prefWidth="446.0" style="-fx-background-color: black;">
+                     <children>
+                        <Text fill="WHITE" layoutX="31.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="An enigmatic treasure trove of almost unimaginable archaeological and cultural riches, it's hard not to think of Egypt without imagining the Sphinx, the pyramids at Giza, Luxor, the Valley of the Kings and the Nile. As well as being the world's largest open-air museum, Egypt also offers a slew of luxurious Red Sea resorts, many within reach of spectacular snorkeling, diving and windsurfing. Whether you see it by riverboat, from camelback or from just above the coral, Egypt's sights are unforgettable." wrappingWidth="252.53680419921875" />
+                        <Text fill="WHITE" layoutX="14.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="About Egypt">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="75.0" fitWidth="113.0" layoutX="313.0" layoutY="34.0">
+                           <image>
+                              <Image url="@../../../imgs/cbc46fcc-9f96-49d2-aab3-a09a03d50413.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="74.0" fitWidth="114.0" layoutX="313.0" layoutY="195.0">
+                           <image>
+                              <Image url="@../../../imgs/a7c12113-056d-4e1c-9155-3e6422b35d7f.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="75.0" fitWidth="115.0" layoutX="313.0" layoutY="112.0">
+                           <image>
+                              <Image url="@../../../imgs/43a63a0f-ec10-4324-a5fe-5758166c67b2.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="-14.0" layoutY="-1.0" prefHeight="32.0" prefWidth="611.0" style="-fx-background-color: black;">
+                     <children>
+                        <Text fill="#f2f2f2" layoutX="248.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tourist Mode" textAlignment="CENTER" wrappingWidth="104.38134765625">
+                           <effect>
+                              <Glow />
+                           </effect>
+                           <font>
+                              <Font name="System Bold" size="15.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
