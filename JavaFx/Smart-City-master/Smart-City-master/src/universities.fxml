@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="426.0" prefWidth="586.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="university_controller">
+   <children>
+      <BorderPane layoutY="-17.0" prefHeight="346.0" prefWidth="388.0">
+         <top>
+            <VBox prefHeight="113.0" prefWidth="388.0" style="-fx-background-image: Z:\uni\y2 sem 2\advanced\quiz\project;" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="159.0" fitWidth="596.0">
+                     <image>
+                        <Image url="@../../../imgs/9b39e759-a25d-4ae3-8d82-7c9ca7eabe2c.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </VBox>
+         </top>
+         <center>
+            <Pane prefHeight="271.0" prefWidth="575.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Pane layoutY="30.0" prefHeight="286.0" prefWidth="152.0" style="-fx-background-color: black;">
+                     <children>
+                        <ImageView fitHeight="300.0" fitWidth="365.0" layoutX="-79.0" layoutY="-28.0">
+                           <image>
+                              <Image url="@../../../imgs/1c275f49-3010-46e1-ad1b-8295da89e9ba.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="160.0" layoutY="29.0" prefHeight="287.0" prefWidth="438.0" style="-fx-background-color: black;">
+                     <children>
+                        <Label layoutX="131.0" layoutY="6.0" prefHeight="17.0" prefWidth="73.0" textFill="RED" />
+                        <Text fill="WHITE" layoutX="40.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cairo University">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="42.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nile University ">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="219.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="American University in Cairo">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="242.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ain Shams">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="67.0" fitWidth="103.0" layoutX="253.0" layoutY="172.0">
+                           <image>
+                              <Image url="@../../../imgs/e632b60d-21e9-4a41-9f80-3621ec7fa8a5.jpg" />
+                           </image>
+                        </ImageView>
+                        <Text fill="WHITE" layoutX="225.0" layoutY="254.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Al Obour, Al Qalyubia Governorate 6360141" wrappingWidth="193.9046630859375">
+                           <font>
+                              <Font size="9.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="68.0" fitWidth="107.0" layoutX="39.0" layoutY="43.0">
+                           <image>
+                              <Image url="@../../../imgs/58ccecab-d65f-429d-8ff9-8eb1ca59ffe4.jpg" />
+                           </image>
+                        </ImageView>
+                        <Text fill="WHITE" layoutX="25.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="26th of July Corridor, Sheikh Zayed City, Giza Governorate 3247010" wrappingWidth="181.9290771484375">
+                           <font>
+                              <Font size="9.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="66.0" fitWidth="107.0" layoutX="251.0" layoutY="44.0">
+                           <image>
+                              <Image url="@../../../imgs/502b02ae-4558-4357-9ea5-04370cb2e852.jpg" />
+                           </image>
+                        </ImageView>
+                        <Text fill="WHITE" layoutX="223.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AUC Avenue، Road، 11835" wrappingWidth="181.9290771484375">
+                           <font>
+                              <Font size="9.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="68.0" fitWidth="109.0" layoutX="38.0" layoutY="172.0">
+                           <image>
+                              <Image url="@../../../imgs/900f517c-df40-4295-9e82-589129fc8d99.jpg" />
+                           </image>
+                        </ImageView>
+                        <Text fill="WHITE" layoutX="25.0" layoutY="256.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1 Gamaa Street, Giza" wrappingWidth="181.9290771484375">
+                           <font>
+                              <Font size="9.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="-14.0" layoutY="-1.0" prefHeight="32.0" prefWidth="611.0" style="-fx-background-color: black;">
+                     <children>
+                        <Text fill="#f2f2f2" layoutX="312.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Universities" textAlignment="CENTER" wrappingWidth="121.98138427734375">
+                           <effect>
+                              <Glow />
+                           </effect>
+                           <font>
+                              <Font name="System Bold" size="21.0" />
+                           </font>
+                        </Text>
+                     </children></Pane>
+               </children>
+            </Pane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
