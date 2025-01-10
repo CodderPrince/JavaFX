@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="426.0" prefWidth="586.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="attractions_controller">
+   <children>
+      <BorderPane layoutY="-17.0" prefHeight="346.0" prefWidth="388.0">
+         <top>
+            <VBox prefHeight="113.0" prefWidth="388.0" style="-fx-background-image: Z:\uni\y2 sem 2\advanced\quiz\project;" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="133.0" fitWidth="596.0">
+                     <image>
+                        <Image url="@../../../imgs/f1141ea0-7d11-41bd-b6f3-f7b044014004.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </VBox>
+         </top>
+         <center>
+            <Pane prefHeight="271.0" prefWidth="575.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Pane layoutY="30.0" prefHeight="286.0" prefWidth="152.0" style="-fx-background-color: black;">
+                     <children>
+                        <ImageView fitHeight="263.0" fitWidth="272.0" layoutX="-71.0">
+                           <image>
+                              <Image url="@../../../imgs/9a475322-2289-4990-8212-2110ed1ccbff.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="152.0" layoutY="29.0" prefHeight="287.0" prefWidth="446.0" style="-fx-background-color: black;">
+                     <children>
+                        <Text fill="WHITE" layoutX="51.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cruising the Nile">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="49.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pyramids of Giza">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="240.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Egyptian museum">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="211.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Egyptian civilization museum">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="67.0" fitWidth="103.0" layoutX="266.0" layoutY="172.0">
+                           <image>
+                              <Image url="@../../../imgs/82.jpg" />
+                           </image>
+                        </ImageView>
+                        <Text fill="WHITE" layoutX="272.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cairo, Egypt">
+                           <font>
+                              <Font size="9.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="79.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cairo, Egypt" wrappingWidth="50.72906494140625">
+                           <font>
+                              <Font size="9.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="296.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cairo, Egypt" wrappingWidth="57.92901611328125">
+                           <font>
+                              <Font size="9.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="76.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cairo, Egypt" wrappingWidth="55.529052734375">
+                           <font>
+                              <Font size="9.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="65.0" fitWidth="109.0" layoutX="50.0" layoutY="45.0">
+                           <image>
+                              <Image url="@../../../imgs/92a9b755-3f17-46eb-b3d4-c260d919d52e.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="66.0" fitWidth="111.0" layoutX="270.0" layoutY="45.0">
+                           <image>
+                              <Image url="@../../../imgs/ca14dc9b03fccb924cd10977f6f3928d.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="67.0" fitWidth="110.0" layoutX="51.0" layoutY="172.0">
+                           <image>
+                              <Image url="@../../../imgs/a7c12113-056d-4e1c-9155-3e6422b35d7f.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="-14.0" layoutY="-1.0" prefHeight="32.0" prefWidth="611.0" style="-fx-background-color: black;">
+                     <children>
+                        <Text fill="#f2f2f2" layoutX="282.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tourist Attractions" textAlignment="CENTER" wrappingWidth="177.18133544921875">
+                           <effect>
+                              <Glow />
+                           </effect>
+                           <font>
+                              <Font name="System Bold" size="19.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
