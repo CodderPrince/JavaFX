@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="606.0" prefWidth="871.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="history_controller">
+   <children>
+      <ImageView fitHeight="168.0" fitWidth="871.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../imgs/2d218dc2-dca9-436b-9da3-5837f1569211.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="332.0" fitWidth="190.0" layoutX="14.0" layoutY="214.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../../imgs/aba4f5f1-c73b-4f76-ab5d-45ea4ce8b02a.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="347.0" layoutY="176.0" prefHeight="99.0" prefWidth="266.0" text="History of the city" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" contentDisplay="TOP" layoutX="347.0" layoutY="275.0" prefHeight="268.0" prefWidth="465.0" text="The history of Egypt has been long and wealthy, due to the flow &#10;of the Nile River with&#10;its fertile banks and delta,&#10;as well as the accomplishments of Egypt's native inhabitants&#10;and outside influence. &#10;Much of Egypt's ancient history &#10;was a mystery until Egyptian&#10;hieroglyphs were deciphered with the discovery and help of the Rosetta Stone. Among&#10;the Seven Wonders of the Ancient World is the Great Pyramid of Giza.&#10;" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
