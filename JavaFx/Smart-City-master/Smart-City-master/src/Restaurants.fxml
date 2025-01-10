@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="426.0" prefWidth="586.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="restaurant_controller">
+   <children>
+      <BorderPane layoutY="-17.0" prefHeight="346.0" prefWidth="388.0">
+         <top>
+            <VBox prefHeight="113.0" prefWidth="388.0" style="-fx-background-image: Z:\uni\y2 sem 2\advanced\quiz\project;" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="133.0" fitWidth="596.0">
+                     <image>
+                        <Image url="@../../../imgs/f1141ea0-7d11-41bd-b6f3-f7b044014004.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </VBox>
+         </top>
+         <center>
+            <Pane prefHeight="271.0" prefWidth="575.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Pane layoutY="30.0" prefHeight="286.0" prefWidth="164.0" style="-fx-background-color: black;">
+                     <children>
+                        <ImageView fitHeight="268.0" fitWidth="229.0" layoutX="4.0">
+                           <image>
+                              <Image url="@../../../imgs/7ca8b986-d8a6-4109-b8f5-19c12b94c5a4.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="152.0" layoutY="29.0" prefHeight="287.0" prefWidth="446.0" style="-fx-background-color: black;">
+                     <children>
+                        <Text fill="WHITE" layoutX="19.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Koshary Abou Tarek">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="24.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fayruz  Restaurant">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="240.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Al Khal Egyptian Restaurant">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="297.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Zooba">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="67.0" fitWidth="103.0" layoutX="266.0" layoutY="172.0">
+                           <image>
+                              <Image url="@../../../imgs/be3bbdf0-d96f-4464-a311-d8110da654b2.jpg" />
+                           </image>
+                        </ImageView>
+                        <Text fill="WHITE" layoutX="227.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="26th of July St, Zamalek, Gezira Island Intersection of 26th of July and Shagaret El Dor,, Cairo 11511 Egypt" wrappingWidth="209.8892822265625">
+                           <font>
+                              <Font size="9.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="22.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" text="InterContinental Cairo Citystars Omar Ibn El Khattab St., Heliopolis, Cairo 11511 Egypt" wrappingWidth="218.72906494140625">
+                           <font>
+                              <Font size="9.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="242.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="InterContinental Cairo Citystars Omar Bin Khattab Street, Cairo 11511 Egypt" wrappingWidth="178.72906494140625">
+                           <font>
+                              <Font size="9.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="24.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choppin ln Champollion, Cairo 11511 Egypt" wrappingWidth="185.92901611328125">
+                           <font>
+                              <Font size="9.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="65.0" fitWidth="109.0" layoutX="22.0" layoutY="45.0">
+                           <image>
+                              <Image url="@../../../imgs/4fd5b1f0-a48e-444b-83ab-0cf1fd8abbb2.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="66.0" fitWidth="111.0" layoutX="262.0" layoutY="45.0">
+                           <image>
+                              <Image url="@../../../imgs/ad24eedb-8187-49dc-a8f0-4a650241d456.jpg" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="67.0" fitWidth="110.0" layoutX="22.0" layoutY="172.0">
+                           <image>
+                              <Image url="@../../../imgs/96056e64-fc3c-4912-afb3-98afa156a0ad.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="-14.0" layoutY="-1.0" prefHeight="32.0" prefWidth="611.0" style="-fx-background-color: black;">
+                     <children>
+                        <Text fill="#f2f2f2" layoutX="323.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Restaurants" textAlignment="CENTER" wrappingWidth="120.38134765625">
+                           <effect>
+                              <Glow />
+                           </effect>
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
