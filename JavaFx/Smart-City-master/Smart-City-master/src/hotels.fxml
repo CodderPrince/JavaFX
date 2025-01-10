@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="426.0" prefWidth="586.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hotels_controller">
+   <children>
+      <BorderPane layoutY="-17.0" prefHeight="346.0" prefWidth="388.0">
+         <top>
+            <VBox prefHeight="113.0" prefWidth="388.0" style="-fx-background-image: Z:\uni\y2 sem 2\advanced\quiz\project;" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="133.0" fitWidth="596.0">
+                     <image>
+                        <Image url="@../../../imgs/f1141ea0-7d11-41bd-b6f3-f7b044014004.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </VBox>
+         </top>
+         <center>
+            <Pane prefHeight="271.0" prefWidth="575.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Pane prefHeight="316.0" prefWidth="152.0" style="-fx-background-color: black;">
+                     <children>
+                        <ImageView fitHeight="272.0" fitWidth="412.0" layoutX="-109.0" layoutY="22.0">
+                           <image>
+                              <Image url="@../../../imgs/06496b1c-42ec-4c1d-9a1a-37a94a9adc0d.jpg" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="145.0" prefHeight="316.0" prefWidth="453.0" style="-fx-background-color: black;">
+                     <children>
+                        <Text fill="WHITE" layoutX="65.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hilton Cairo">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="62.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Four Seasons">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="288.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fairmont">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Text>
+                        <Text fill="WHITE" layoutX="290.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Marriott">
+                           <font>
+                              <Font name="System Bold" size="14.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="67.0" fitWidth="103.0" layoutX="266.0" layoutY="202.0">
+                           <image>
+                              <Image url="@../../../imgs/fcc1daeb-c093-472f-b397-6e3742acf03d.jpg" />
+                           </image>
+                        </ImageView>
+                        <Text fill="WHITE" layoutX="220.0" layoutY="289.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ring Road- Mirage City Heliopolis, Cairo 11757 Egypt">
+                           <font>
+                              <Font size="9.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="68.0" fitWidth="107.0" layoutX="52.0" layoutY="73.0">
+                           <image>
+                              <Image url="@../../../imgs/7f35eb28-c924-453a-982f-74bfd51f2426.jpg" />
+                           </image>
+                        </ImageView>
+                        <Text fill="WHITE" layoutX="15.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1089 Corniche El Nil Maglis El Shaab, Garden City, Cairo 11511 Egypt" wrappingWidth="181.9290771484375">
+                           <font>
+                              <Font size="9.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="66.0" fitWidth="107.0" layoutX="264.0" layoutY="74.0">
+                           <image>
+                              <Image url="@../../../imgs/76fa4a7e-1f4c-4b91-bc11-815e8e752ee7.jpg" />
+                           </image>
+                        </ImageView>
+                        <Text fill="WHITE" layoutX="235.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1089 Corniche El Nil Maglis El Shaab, Garden City, Cairo 11511 Egypt" wrappingWidth="181.9290771484375">
+                           <font>
+                              <Font size="9.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="68.0" fitWidth="109.0" layoutX="51.0" layoutY="201.0">
+                           <image>
+                              <Image url="@../../../imgs/34755c9d-151a-4250-af64-91959f9a3272.jpg" />
+                           </image>
+                        </ImageView>
+                        <Text fill="WHITE" layoutX="15.0" layoutY="289.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Corniche El Nile 1115, Cairo 12344 Egypt" wrappingWidth="181.9290771484375">
+                           <font>
+                              <Font size="9.0" />
+                           </font>
+                        </Text>
+                        <Text fill="#f2f2f2" layoutX="168.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hotels" textAlignment="CENTER" wrappingWidth="104.38134765625">
+                           <effect>
+                              <Glow />
+                           </effect>
+                           <font>
+                              <Font name="System Bold" size="21.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
