@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="src">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/TicTacToe-master/src/tt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/TicTacToe-master/src/TTT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
