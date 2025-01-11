@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.smartcity.controllers.TrafficController"
+            prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <!-- Pane for Vehicle Animations -->
+        <Pane fx:id="trafficPane" layoutX="10.0" layoutY="10.0" prefWidth="580.0" prefHeight="300.0"
+              style="-fx-background-color: lightgray;" />
+
+        <!-- Buttons to Trigger Animations -->
+        <HBox spacing="10" layoutX="10.0" layoutY="330.0">
+            <Button text="Animate Vehicle" onAction="#animateVehicle" />
+            <Button text="Animate Vehicles" onAction="#animateVehicles" />
+        </HBox>
+    </children>
+</AnchorPane>
