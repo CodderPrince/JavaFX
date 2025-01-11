@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.smartcity.controllers.CityController"
+            prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <!-- City Simulation Pane -->
+        <Pane fx:id="cityPane"
+              layoutX="10.0" layoutY="10.0"
+              prefHeight="300.0" prefWidth="580.0"
+              style="-fx-background-color: lightgray;"
+              BorderPane.alignment="CENTER">
+            <!-- This is where buildings, vehicles, etc., will be displayed -->
+        </Pane>
+
+        <!-- Control Buttons -->
+        <HBox spacing="10"
+              layoutX="10.0" layoutY="320.0"
+              prefHeight="50.0" prefWidth="580.0">
+            <Button fx:id="startSimulationButton"
+                    text="Start Simulation"
+                    onAction="#startSimulation" />
+            <Button fx:id="stopSimulationButton"
+                    text="Stop Simulation"
+                    onAction="#stopSimulation"
+                    disable="true" />
+            <Button fx:id="resetSimulationButton"
+                    text="Reset Simulation"
+                    onAction="#resetSimulation" />
+        </HBox>
+    </children>
+</AnchorPane>
