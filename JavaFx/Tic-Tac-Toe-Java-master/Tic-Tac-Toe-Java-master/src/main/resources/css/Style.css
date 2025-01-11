@@ -1,0 +1,10 @@
+.gray {
+    -fx-opacity: 0.5;
+}
+.white {}
+#whiteTextComboBox > .list-cell {
+    -fx-text-fill: white;
+}
+.btnGrid {
+    -fx-background-color: transparent;
+}
