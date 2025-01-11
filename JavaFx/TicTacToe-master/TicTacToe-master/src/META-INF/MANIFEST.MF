@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Class-Path: /Users/azvasquez/OneDrive - University of Florida/COP4331/
+ TTTold/src/
+Main-Class: course.oop.application.Main
+
