@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane style="-fx-background-color: #01A7C2;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.GameController">
+   <center>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="300.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox alignment="BOTTOM_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity">
+               <children>
+                  <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Tic-Tac-Toe">
+                     <font>
+                        <Font name="Bauhaus 93" size="72.0" />
+                     </font>
+                  </Text>
+                  <HBox alignment="CENTER" spacing="8.0">
+                     <children>
+                        <Button contentDisplay="CENTER" mnemonicParsing="false" onAction="#openRules" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-radius: 5; -fx-cursor: hand;" text="Règles" textFill="WHITE">
+                           <font>
+                              <Font name="Bauhaus 93" size="18.0" />
+                           </font>
+                        </Button>
+                        <Button contentDisplay="CENTER" layoutX="24.0" layoutY="10.0" mnemonicParsing="false" onAction="#openSettings" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-radius: 5; -fx-cursor: hand;" text="Paramètres" textFill="WHITE">
+                           <font>
+                              <Font name="Bauhaus 93" size="18.0" />
+                           </font>
+                        </Button>
+                        <Button contentDisplay="CENTER" layoutX="196.0" layoutY="10.0" mnemonicParsing="false" onAction="#ResetClick" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-radius: 5; -fx-cursor: hand;" text="Réinitialiser" textFill="WHITE">
+                           <font>
+                              <Font name="Bauhaus 93" size="18.0" />
+                           </font>
+                        </Button>
+                        <Button contentDisplay="CENTER" layoutX="239.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleQuitterClick" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-radius: 5; -fx-cursor: hand;" text="Quitter" textFill="WHITE">
+                           <font>
+                              <Font name="Bauhaus 93" size="18.0" />
+                           </font>
+                        </Button>
+                     </children>
+                     <VBox.margin>
+                        <Insets bottom="32.0" />
+                     </VBox.margin>
+                  </HBox>
+               </children>
+            </VBox>
+            <GridPane fx:id="gameBoard" alignment="CENTER" prefHeight="170.0" prefWidth="359.0">
+               <columnConstraints>
+                  <ColumnConstraints maxWidth="-Infinity" minWidth="-Infinity" prefWidth="150.0" />
+                  <ColumnConstraints maxWidth="-Infinity" minWidth="-Infinity" prefWidth="0.0" />
+                  <ColumnConstraints maxWidth="-Infinity" minWidth="-Infinity" prefWidth="150.0" />
+                  <ColumnConstraints maxWidth="-Infinity" minWidth="-Infinity" prefWidth="0.0" />
+                  <ColumnConstraints maxWidth="-Infinity" minWidth="-Infinity" prefWidth="150.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="150.0" />
+                  <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="0.0" />
+                  <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="150.0" />
+                  <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="0.0" />
+                  <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="150.0" />
+               </rowConstraints>
+               <children>
+                  <Button contentDisplay="CENTER" minHeight="150.0" minWidth="150.0" onAction="#handleButtonClick" styleClass="btnGrid" textFill="WHITE" GridPane.columnIndex="0" GridPane.rowIndex="0">
+                     <font>
+                        <Font name="Bauhaus 93" size="64.0" />
+                     </font></Button>
+                  <Button contentDisplay="CENTER" layoutX="207.0" layoutY="35.0" minHeight="150.0" minWidth="150.0" onAction="#handleButtonClick" styleClass="btnGrid" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="0">
+                     <font>
+                        <Font name="Bauhaus 93" size="64.0" />
+                     </font></Button>
+                  <Button contentDisplay="CENTER" layoutX="242.0" layoutY="35.0" minHeight="150.0" minWidth="150.0" onAction="#handleButtonClick" styleClass="btnGrid" textFill="WHITE" GridPane.columnIndex="4" GridPane.rowIndex="0">
+                     <font>
+                        <Font name="Bauhaus 93" size="64.0" />
+                     </font></Button>
+                  <Button contentDisplay="CENTER" layoutX="77.0" layoutY="35.0" minHeight="150.0" minWidth="150.0" onAction="#handleButtonClick" styleClass="btnGrid" textFill="WHITE" GridPane.columnIndex="0" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="Bauhaus 93" size="64.0" />
+                     </font></Button>
+                  <Button contentDisplay="CENTER" layoutX="77.0" layoutY="35.0" minHeight="150.0" minWidth="150.0" onAction="#handleButtonClick" styleClass="btnGrid" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="Bauhaus 93" size="64.0" />
+                     </font></Button>
+                  <Button contentDisplay="CENTER" layoutX="77.0" layoutY="120.0" minHeight="150.0" minWidth="150.0" onAction="#handleButtonClick" styleClass="btnGrid" textFill="WHITE" GridPane.columnIndex="4" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="Bauhaus 93" size="64.0" />
+                     </font></Button>
+                  <Button contentDisplay="CENTER" layoutX="77.0" layoutY="35.0" minHeight="150.0" minWidth="150.0" onAction="#handleButtonClick" styleClass="btnGrid" textFill="WHITE" GridPane.columnIndex="0" GridPane.rowIndex="4">
+                     <font>
+                        <Font name="Bauhaus 93" size="64.0" />
+                     </font></Button>
+                  <Button contentDisplay="CENTER" layoutX="187.0" layoutY="120.0" minHeight="150.0" minWidth="150.0" onAction="#handleButtonClick" styleClass="btnGrid" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                     <font>
+                        <Font name="Bauhaus 93" size="64.0" />
+                     </font></Button>
+                  <Button contentDisplay="CENTER" layoutX="187.0" layoutY="230.0" minHeight="150.0" minWidth="150.0" onAction="#handleButtonClick" styleClass="btnGrid" textFill="WHITE" GridPane.columnIndex="4" GridPane.rowIndex="4">
+                     <font>
+                        <Font name="Bauhaus 93" size="64.0" />
+                     </font></Button>
+                  <Rectangle arcHeight="1.0" arcWidth="1.0" fill="WHITE" height="150.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="2.0" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+                  <Rectangle arcHeight="1.0" arcWidth="1.0" fill="WHITE" height="150.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="2.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <Rectangle arcHeight="1.0" arcWidth="1.0" fill="WHITE" height="150.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="2.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                  <Rectangle arcHeight="1.0" arcWidth="1.0" fill="WHITE" height="150.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="2.0" GridPane.columnIndex="3" GridPane.rowIndex="0" />
+                  <Rectangle arcHeight="1.0" arcWidth="1.0" fill="WHITE" height="150.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="2.0" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                  <Rectangle arcHeight="1.0" arcWidth="1.0" fill="WHITE" height="150.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="2.0" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+                  <Rectangle arcHeight="1.0" arcWidth="1.0" fill="WHITE" height="2.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="150.0" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+                  <Rectangle arcHeight="1.0" arcWidth="1.0" fill="WHITE" height="2.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="150.0" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+                  <Rectangle arcHeight="1.0" arcWidth="1.0" fill="WHITE" height="2.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="150.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                  <Rectangle arcHeight="1.0" arcWidth="1.0" fill="WHITE" height="2.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="150.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                  <Rectangle arcHeight="1.0" arcWidth="1.0" fill="WHITE" height="2.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="150.0" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+                  <Rectangle arcHeight="1.0" arcWidth="1.0" fill="WHITE" height="2.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="150.0" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+               </children>
+               <padding>
+                  <Insets bottom="8.0" />
+               </padding>
+            </GridPane>
+            <VBox fx:id="msgEndGame" alignment="CENTER" spacing="8.0">
+               <children>
+                  <Text fx:id="winnerText" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Joueur 1 a gagné">
+                     <font>
+                        <Font name="Bauhaus 93" size="24.0" />
+                     </font>
+                  </Text>
+                  <Button contentDisplay="CENTER" mnemonicParsing="false" onAction="#replayGame" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-radius: 5; -fx-cursor: hand;" text="Rejouer" textFill="WHITE">
+                     <font>
+                        <Font name="Bauhaus 93" size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </VBox>
+            <HBox alignment="CENTER" spacing="16.0">
+               <children>
+                  <VBox fx:id="player1current" alignment="CENTER" spacing="10.0">
+                     <children>
+                        <HBox alignment="CENTER" spacing="5.0">
+                           <children>
+                              <Text fx:id="player1Text" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Joueur 1">
+                                 <font>
+                                    <Font name="Bauhaus 93" size="18.0" />
+                                 </font>
+                              </Text>
+                              <Label text="(X)" textFill="WHITE">
+                                 <font>
+                                    <Font name="Bauhaus 93" size="18.0" />
+                                 </font></Label>
+                           </children>
+                        </HBox>
+                        <Text fx:id="player1Score" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+                           <font>
+                              <Font name="Bauhaus 93" size="32.0" />
+                           </font></Text>
+                     </children>
+                  </VBox>
+                  <VBox fx:id="equalityVBox" alignment="CENTER" spacing="10.0">
+                     <children>
+                        <Label maxHeight="-Infinity" minHeight="-Infinity" prefHeight="19.0" text="-" textFill="WHITE">
+                           <font>
+                              <Font size="14.0" />
+                           </font></Label>
+                        <Text fx:id="equalityScore" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+                           <font>
+                              <Font name="Bauhaus 93" size="32.0" />
+                           </font></Text>
+                     </children>
+                  </VBox>
+                  <VBox fx:id="player2current" alignment="CENTER" spacing="10.0">
+                     <children>
+                        <HBox alignment="CENTER" spacing="5.0">
+                           <children>
+                              <Text fx:id="player2Text" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Joueur 2">
+                                 <font>
+                                    <Font name="Bauhaus 93" size="18.0" />
+                                 </font>
+                              </Text>
+                              <Label text="(O)" textFill="WHITE">
+                                 <font>
+                                    <Font name="Bauhaus 93" size="18.0" />
+                                 </font></Label>
+                           </children>
+                        </HBox>
+                        <Text fx:id="player2Score" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="0">
+                           <font>
+                              <Font name="Bauhaus 93" size="32.0" />
+                           </font></Text>
+                     </children>
+                  </VBox>
+               </children>
+               <padding>
+                  <Insets top="16.0" />
+               </padding>
+            </HBox>
+         </children>
+      </VBox>
+   </center>
+   <padding>
+      <Insets bottom="16.0" left="16.0" right="16.0" top="16.0" />
+   </padding>
+</BorderPane>
