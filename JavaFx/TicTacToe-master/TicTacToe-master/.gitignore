@@ -1,0 +1,5 @@
+out/ 
+*.diff 
+*.ttt 
+*.iml 
+.idea/ 
