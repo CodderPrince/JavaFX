@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.smartcity.controllers.DashboardController"
+            prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <!-- Energy Usage Section -->
+        <VBox layoutX="20.0" layoutY="20.0" spacing="10.0">
+            <Label text="Energy Usage" />
+            <PieChart fx:id="energyUsageChart" prefHeight="200.0" prefWidth="250.0" />
+            <Label fx:id="energyUsageLabel" text="Total Energy Usage: --" />
+        </VBox>
+
+        <!-- Traffic Flow Section -->
+        <VBox layoutX="300.0" layoutY="20.0" spacing="10.0">
+            <Label text="Traffic Flow" />
+            <BarChart fx:id="trafficFlowChart" prefHeight="200.0" prefWidth="250.0">
+                <xAxis>
+                    <CategoryAxis label="Time" />
+                </xAxis>
+                <yAxis>
+                    <NumberAxis label="Vehicles" />
+                </yAxis>
+            </BarChart>
+            <Label fx:id="trafficStatusLabel" text="Traffic Status: --" />
+        </VBox>
+    </children>
+</AnchorPane>
