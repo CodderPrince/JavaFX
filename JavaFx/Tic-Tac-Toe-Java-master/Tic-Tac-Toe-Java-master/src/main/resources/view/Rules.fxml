@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="CENTER" spacing="10" style="-fx-background-color: #01A7C2;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.RulesController">
+    <Label text="Règles du jeu" textFill="WHITE">
+      <font>
+         <Font name="Bauhaus 93" size="36.0" />
+      </font></Label>
+    <Text fill="WHITE" text="1. Le jeu se joue à deux joueurs : X et O.">
+      <font>
+         <Font name="Bauhaus 93" size="18.0" />
+      </font></Text>
+    <Text fill="WHITE" text="2. Les joueurs jouent à tour de rôle.">
+      <font>
+         <Font name="Bauhaus 93" size="18.0" />
+      </font></Text>
+    <Text fill="WHITE" text="3. Le but est d'aligner trois de ses propres symboles (horizontalement, verticalement ou en diagonale).">
+      <font>
+         <Font name="Bauhaus 93" size="18.0" />
+      </font></Text>
+    <Text fill="WHITE" text="4. Le jeu se termine lorsque l'un des joueurs aligne trois symboles ou lorsque toutes les cases sont remplies.">
+      <font>
+         <Font name="Bauhaus 93" size="18.0" />
+      </font></Text>
+    <Button fx:id="closeButton" onAction="#closeRules" style="-fx-background-color: transparent; -fx-border-color: white; -fx-border-radius: 5; -fx-cursor: hand;" text="Fermer" textFill="WHITE">
+      <font>
+         <Font name="Bauhaus 93" size="18.0" />
+      </font>
+      <VBox.margin>
+         <Insets top="12.0" />
+      </VBox.margin></Button>
+   <padding>
+      <Insets bottom="16.0" left="16.0" right="16.0" top="16.0" />
+   </padding>
+</VBox>
