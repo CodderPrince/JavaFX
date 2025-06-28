@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(){
+int C,F;
+printf("Enter the value of C:\n");
+scanf("%d", &C);
+printf("%\n", F= C*(9/5) +32 );
+
+return 0;
+}
