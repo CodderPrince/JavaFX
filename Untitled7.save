@@ -1,0 +1,24 @@
+#include<stdio.h>
+#define NUMBER 5;
+int main()
+{
+float NUMBER[5];
+int i, pos=0, neg=0, zero=0;
+printf("Enter the 5 numbers:\n");
+for(i=0; i<4; i++)
+{
+if(NUMBER[i]>0)
+p++;
+else if(NUMBER[i]<0)
+neg++;
+else
+zero++;
+}
+printf("Total positive number:%d\n",pos);
+printf("Total negative number:%d\n",neg);
+printf("Total zeros number:%d\n",zero);
+
+
+
+return 0;
+}
