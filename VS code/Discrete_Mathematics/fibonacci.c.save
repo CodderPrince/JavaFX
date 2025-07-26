@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+    int n;
+    printf("Enter a number to want fibonacci: ");
+    scanf("%d",&n);
+    printf("Fibonacci number: %d\n",fib(n));
+    return 0;
+}
+
+int fib(n)
+
